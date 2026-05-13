@@ -1,0 +1,94 @@
+#+TITLE: Projects — Pawan Jangra
+#+DESCRIPTION: Selected data analysis and research projects by Pawan Jangra.
+
+[[./index.org][← Home]]
+
+* Projects
+
+A selection of analytical pipelines, dashboards, and research deliverables.
+
+---
+
+** India Trade Data Analysis Pipeline
+
+*Status:* Completed | *Tools:* R, data.table, ggplot2
+
+A comprehensive pipeline covering *8-digit HS code* level import/export data
+from 2018–2026, sourced from DGCI&S. Produced 12 publication-quality plots
+with a custom ggplot2 theme, covering:
+
+- Commodity-level trade balances over time
+- Top trading partners by HS section
+- Import concentration risk using Herfindahl-Hirschman Index (HHI)
+- Year-on-year growth heatmaps by commodity group
+
+---
+
+** Petroleum Data Analysis (NITI Aayog ICED)
+
+*Status:* Completed | *Tools:* R, ggplot2, PPAC, RBI data
+
+Full pipeline built from NITI Aayog's ICED portal data, producing *10 charts*
+and a master ~.rds~ file. Included recommendations for dataset enrichment from
+PPAC and RBI sources. Key outputs:
+
+- Crude oil import price trends
+- Refinery throughput vs domestic consumption
+- Fuel price pass-through analysis
+
+---
+
+** India Agricultural Commodity Market Analysis
+
+*Status:* Completed | *Tools:* R, data.table, tidyverse, ggplot2
+
+Built ~india_agri_analysis.R~ covering *14 commodity groups* across *31 states/UTs*,
+with cleaned outputs, ggplot2 visualisations, and handling of partial-year
+state coverage.
+
+---
+
+** India Economic Research Shiny Dashboard
+
+*Status:* Completed | *Tools:* Shiny, ggiraph, data.table
+
+Modular Shiny dashboard drawing on *10 international data sources*:
+IMF WEO, World Bank WDI, WTO, WID.world, FAOSTAT, UN Comtrade, OECD,
+BIS, ILO, UNDP HDI. India-focused analytical framing with interactive
+~ggiraph~ charts.
+
+---
+
+** NSS 75th Round Data Extraction
+
+*Status:* Completed | *Tools:* R, readr
+
+Extracted Schedule 25.0 (Domestic Tourism) fixed-width survey data across
+*13 record levels* using ~readr::read_fwf()~, with full column specifications
+and labelled output datasets.
+
+---
+
+** GST Collection Analysis & Forecasting
+
+*Status:* Completed | *Tools:* R, Python, Shiny, forecast
+
+Full GST statistics portal scraping (Selenium/BeautifulSoup), monthly
+collection analysis, and Shiny dashboard with ARIMA/ETS forecasting.
+Parallel implementation in both R and Python.
+
+---
+
+** Quarto Academic Papers
+
+*Status:* Completed | *Tools:* Quarto, R, gt
+
+Pair of comprehensive academic papers:
+1. /Exploratory Data Analysis in R/ — covering 10 packages (skimr, GGally,
+   DataExplorer, SmartEDA, etc.) with Indian socio-economic examples
+2. /Statistical Modelling and Hypothesis Testing/ — gt-formatted tables,
+   multi-format output (HTML + PDF)
+
+---
+
+[[./about.org][→ About Me]]  |  [[./skills.org][→ Skills & Tools]]

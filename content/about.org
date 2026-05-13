@@ -1,0 +1,47 @@
+#+TITLE: About — Pawan Jangra
+#+DESCRIPTION: Research Consultant and Data Analyst based in New Delhi, India.
+
+[[./index.org][← Home]]
+
+* About Me
+
+I am an independent economic researcher and data analyst based in *New Delhi, India*,
+with over *7 years of experience* in quantitative social science research.
+
+My work focuses on Indian macroeconomics, agricultural markets, labour statistics,
+trade data, and energy economics — using reproducible, code-first workflows.
+
+** Background
+
+- *Research Consultant* — Independent / Freelance
+- *OP Jindal Global University* — Research roles
+- *IDEAs Advanced Certificate Programme* — Research training
+- *Society for Social and Economic Research (SSER)* — Research coordination
+
+** Education & Training
+
+Advanced training in survey sampling methodology, econometrics, and statistical
+computing. Completed IGNOU MST-013 coursework in survey sampling theory.
+
+** Domain Expertise
+
+I work with data from:
+
+- Indian Government Surveys: NSS, PLFS (large-scale household surveys)
+- Trade Data: DGCI&S, UN Comtrade (HS-code level import/export)
+- Agricultural Data: FAOSTAT, Ministry of Agriculture price series
+- Energy Data: NITI Aayog ICED, PPAC petroleum statistics
+- Macroeconomic Data: IMF WEO, World Bank WDI, RBI, OECD
+
+** What Makes My Work Different
+
+I combine rigorous *survey methodology* with modern *data engineering* — building
+pipelines that are fully reproducible, documented in Quarto, and ready for
+peer review or client delivery.
+
+Every analysis I deliver includes clean code, structured outputs (RDS, CSV,
+publication-quality PDFs), and plain-language interpretation.
+
+---
+
+[[./projects.org][→ See My Projects]]  |  [[./skills.org][→ Skills & Tools]]

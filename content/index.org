@@ -1,0 +1,52 @@
+#+TITLE: Pawan Jangra | Research Consultant & Data Analyst
+#+DESCRIPTION: Independent economic researcher specializing in Indian data, R programming, and statistical analysis.
+
+* Welcome
+
+I am *Pawan Jangra*, an independent Research Consultant and Data Analyst based in
+*New Delhi, India*, with 7+ years of experience in survey methodology, statistical
+analysis, and research coordination.
+
+I work at the intersection of empirical economics, data engineering, and reproducible
+research — transforming large Indian government datasets into actionable insights.
+
+#+BEGIN_QUOTE
+Turning raw data into publication-quality insights using R, Quarto, and modern
+data workflows.
+#+END_QUOTE
+
+[[./about.org][→ About Me]]  |  [[./projects.org][→ Projects]]  |  [[./skills.org][→ Skills & Tools]]
+
+---
+
+* What I Do
+
+** Research & Analysis
+Large-scale survey data analysis (NSS, PLFS), trade statistics, agricultural
+economics, energy data, and labour market research — all with an India focus.
+
+** Data Engineering
+Building end-to-end R pipelines using ~data.table~ and ~ggplot2~: from raw
+government data portals (DGCI&S, NITI Aayog, PPAC) to publication-quality outputs.
+
+** Interactive Dashboards
+Shiny applications with ~ggiraph~ for interactive exploration of complex datasets,
+including ARIMA/ETS forecasting panels and drill-down map interfaces.
+
+** Field Survey Design
+ODK / KoboToolbox / SurveyCTO instrument design, sampling framework development,
+and CAPI field coordination.
+
+---
+
+* Recent Work Highlights
+
+| Project | Description | Tools |
+|---------|-------------|-------|
+| India Trade Data Pipeline | 8-digit HS code import/export 2018–2026, 12 publication plots | data.table, ggplot2 |
+| Petroleum Data Analysis | NITI Aayog ICED portal, 10 charts + master RDS | R, PPAC, RBI sources |
+| Agricultural Market Analysis | 14 commodity groups, 31 states/UTs | tidyverse, ggplot2 |
+| NSS 75th Round Extraction | Fixed-width survey data, 13 levels via readr | readr::read_fwf() |
+| India Economic Shiny App | 10 international data sources, IMF/WB/ILO/FAOSTAT | Shiny, ggiraph |
+
+[[./projects.org][→ View all projects]]

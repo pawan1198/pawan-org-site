@@ -1,0 +1,71 @@
+#+TITLE: Skills & Tools — Pawan Jangra
+#+DESCRIPTION: Technical skills, tools, and domain expertise of Pawan Jangra.
+
+[[./index.org][← Home]]
+
+* Skills & Tools
+
+** Core R Stack
+
+| Package | Use |
+|---------|-----|
+| ~data.table~ | High-performance data wrangling on large datasets |
+| ~ggplot2~ | Publication-quality static visualisation |
+| ~ggiraph~ | Interactive ggplot2 charts for Shiny |
+| ~Shiny~ | Interactive web applications and dashboards |
+| ~Quarto~ | Reproducible documents, websites, books |
+| ~gt~ | Publication-quality tables |
+| ~patchwork~ | Multi-panel plot composition |
+| ~readr~ | Fast CSV and fixed-width file parsing |
+| ~readxl~ | Excel file ingestion |
+| ~forecast~ | ARIMA and ETS time series forecasting |
+| ~tidyverse~ | Data manipulation and reshaping |
+
+** Python Stack
+
+- *openpyxl* — Programmatic Excel workbook creation
+- *Selenium* — Web scraping (government portals)
+- *BeautifulSoup* — HTML parsing and data extraction
+
+** Survey & Field Tools
+
+- ODK Collect
+- KoboToolbox
+- SurveyCTO
+
+CAPI questionnaire design, sampling framework development, enumerator
+training, and field data quality control.
+
+** Web & Markup
+
+- *Quarto* — Website, book, and dashboard publishing
+- *Org Mode* — Literate programming and site publishing
+- *HTML/CSS/JavaScript* — Quarto custom theming and content hubs
+- *SCSS* — Custom theme development for Quarto Book sites
+- *Linux/Bash* — Shell scripting and automation
+
+** Data Sources I Work With Regularly
+
+- DGCI&S (India trade, 8-digit HS)
+- NITI Aayog ICED (energy data)
+- PPAC (petroleum prices)
+- Ministry of Agriculture (commodity prices)
+- PLFS / NSS (household survey microdata)
+- IMF WEO, World Bank WDI
+- FAOSTAT, ILO, UNDP HDI
+- UN Comtrade, WTO
+- RBI (monetary and financial data)
+- GST Council statistics portal
+
+---
+
+** Services I Offer
+
+- Survey design, sampling, and field coordination
+- Statistical modelling (regression, time series, HHI, EDA)
+- Shiny dashboard development
+- Web scraping of government portals
+- Analysis of large Indian surveys (NSS, PLFS)
+- Publication-quality reports (Quarto HTML + PDF)
+
+[[./projects.org][→ See My Projects]]  |  [[./about.org][→ About Me]]
