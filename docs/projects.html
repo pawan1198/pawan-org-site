@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Projects — Pawan Jangra</title>
+<meta name="description" content="Selected data analysis and research projects by Pawan Jangra." />
+<meta name="generator" content="Org Mode" />
+
+<link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css" />
+<style>
+  :root {
+    --accent: #2563eb;
+    --accent-bg: #eff6ff;
+    --bg: #ffffff;
+    --text: #1e293b;
+    --border: #e2e8f0;
+  }
+  body { font-family: 'Georgia', serif; }
+  code, pre { font-family: 'Fira Code', 'Consolas', monospace; font-size: 0.9em; }
+  h1, h2, h3 { font-family: 'Segoe UI', sans-serif; }
+  table { width: 100%; border-collapse: collapse; }
+  th { background: var(--accent-bg); }
+  blockquote { border-left: 4px solid var(--accent); background: var(--accent-bg); }
+  nav { margin-bottom: 1rem; }
+  header { border-bottom: 2px solid var(--accent); }
+</style>
+</head>
+<body>
+<div id="preamble" class="status">
+<nav>
+  <a href="/index.html">Home</a> &nbsp;|&nbsp;
+  <a href="/about.html">About</a> &nbsp;|&nbsp;
+  <a href="/projects.html">Projects</a> &nbsp;|&nbsp;
+  <a href="/skills.html">Skills</a> &nbsp;|&nbsp;
+  <a href="https://pawan1198.github.io/portfolio" target="_blank">Portfolio ↗</a>
+</nav>
+</div>
+<div id="content" class="content">
+<header>
+<h1 class="title">Projects — Pawan Jangra</h1>
+</header><p>
+<a href="./index.html">← Home</a>
+</p>
+<div id="outline-container-orgb52676e" class="outline-2">
+<h2 id="orgb52676e">Projects</h2>
+<div class="outline-text-2" id="text-orgb52676e">
+<p>
+A selection of analytical pipelines, dashboards, and research deliverables.
+</p>
+
+<p>
+&mdash;
+</p>
+</div>
+<div id="outline-container-org3913418" class="outline-3">
+<h3 id="org3913418">India Trade Data Analysis Pipeline</h3>
+<div class="outline-text-3" id="text-org3913418">
+<p>
+<b>Status:</b> Completed | <b>Tools:</b> R, data.table, ggplot2
+</p>
+
+<p>
+A comprehensive pipeline covering <b>8-digit HS code</b> level import/export data
+from 2018–2026, sourced from DGCI&amp;S. Produced 12 publication-quality plots
+with a custom ggplot2 theme, covering:
+</p>
+
+<ul class="org-ul">
+<li>Commodity-level trade balances over time</li>
+<li>Top trading partners by HS section</li>
+<li>Import concentration risk using Herfindahl-Hirschman Index (HHI)</li>
+<li>Year-on-year growth heatmaps by commodity group</li>
+</ul>
+
+<p>
+&mdash;
+</p>
+</div>
+</div>
+<div id="outline-container-org33c4181" class="outline-3">
+<h3 id="org33c4181">Petroleum Data Analysis (NITI Aayog ICED)</h3>
+<div class="outline-text-3" id="text-org33c4181">
+<p>
+<b>Status:</b> Completed | <b>Tools:</b> R, ggplot2, PPAC, RBI data
+</p>
+
+<p>
+Full pipeline built from NITI Aayog's ICED portal data, producing <b>10 charts</b>
+and a master <code>.rds</code> file. Included recommendations for dataset enrichment from
+PPAC and RBI sources. Key outputs:
+</p>
+
+<ul class="org-ul">
+<li>Crude oil import price trends</li>
+<li>Refinery throughput vs domestic consumption</li>
+<li>Fuel price pass-through analysis</li>
+</ul>
+
+<p>
+&mdash;
+</p>
+</div>
+</div>
+<div id="outline-container-org81e8365" class="outline-3">
+<h3 id="org81e8365">India Agricultural Commodity Market Analysis</h3>
+<div class="outline-text-3" id="text-org81e8365">
+<p>
+<b>Status:</b> Completed | <b>Tools:</b> R, data.table, tidyverse, ggplot2
+</p>
+
+<p>
+Built <code>india_agri_analysis.R</code> covering <b>14 commodity groups</b> across <b>31 states/UTs</b>,
+with cleaned outputs, ggplot2 visualisations, and handling of partial-year
+state coverage.
+</p>
+
+<p>
+&mdash;
+</p>
+</div>
+</div>
+<div id="outline-container-org237516e" class="outline-3">
+<h3 id="org237516e">India Economic Research Shiny Dashboard</h3>
+<div class="outline-text-3" id="text-org237516e">
+<p>
+<b>Status:</b> Completed | <b>Tools:</b> Shiny, ggiraph, data.table
+</p>
+
+<p>
+Modular Shiny dashboard drawing on <b>10 international data sources</b>:
+IMF WEO, World Bank WDI, WTO, WID.world, FAOSTAT, UN Comtrade, OECD,
+BIS, ILO, UNDP HDI. India-focused analytical framing with interactive
+<code>ggiraph</code> charts.
+</p>
+
+<p>
+&mdash;
+</p>
+</div>
+</div>
+<div id="outline-container-orgf3007f1" class="outline-3">
+<h3 id="orgf3007f1">NSS 75th Round Data Extraction</h3>
+<div class="outline-text-3" id="text-orgf3007f1">
+<p>
+<b>Status:</b> Completed | <b>Tools:</b> R, readr
+</p>
+
+<p>
+Extracted Schedule 25.0 (Domestic Tourism) fixed-width survey data across
+<b>13 record levels</b> using <code>readr::read_fwf()</code>, with full column specifications
+and labelled output datasets.
+</p>
+
+<p>
+&mdash;
+</p>
+</div>
+</div>
+<div id="outline-container-org3977327" class="outline-3">
+<h3 id="org3977327">GST Collection Analysis &amp; Forecasting</h3>
+<div class="outline-text-3" id="text-org3977327">
+<p>
+<b>Status:</b> Completed | <b>Tools:</b> R, Python, Shiny, forecast
+</p>
+
+<p>
+Full GST statistics portal scraping (Selenium/BeautifulSoup), monthly
+collection analysis, and Shiny dashboard with ARIMA/ETS forecasting.
+Parallel implementation in both R and Python.
+</p>
+
+<p>
+&mdash;
+</p>
+</div>
+</div>
+<div id="outline-container-org4bc0ec5" class="outline-3">
+<h3 id="org4bc0ec5">Quarto Academic Papers</h3>
+<div class="outline-text-3" id="text-org4bc0ec5">
+<p>
+<b>Status:</b> Completed | <b>Tools:</b> Quarto, R, gt
+</p>
+
+<p>
+Pair of comprehensive academic papers:
+</p>
+<ol class="org-ol">
+<li><i>Exploratory Data Analysis in R</i> — covering 10 packages (skimr, GGally,
+DataExplorer, SmartEDA, etc.) with Indian socio-economic examples</li>
+<li><i>Statistical Modelling and Hypothesis Testing</i> — gt-formatted tables,
+multi-format output (HTML + PDF)</li>
+</ol>
+
+<p>
+&mdash;
+</p>
+
+<p>
+<a href="./about.html">→ About Me</a>  |  <a href="./skills.html">→ Skills &amp; Tools</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<footer>
+  <p>Pawan Jangra &middot; Research Consultant &amp; Data Analyst &middot; New Delhi, India</p>
+  <p><small>Built with GNU Emacs &amp; Org Mode &mdash; 2026-05-13 Wed 17:54</small></p>
+</footer>
+</div>
+</body>
+</html>

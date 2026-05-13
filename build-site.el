@@ -58,7 +58,7 @@
              :recursive t
              :base-directory "./content"
              :publishing-function 'org-html-publish-to-html
-             :publishing-directory "./public"
+             :publishing-directory "./docs"
              :with-author nil
              :with-creator nil
              :with-toc nil
@@ -70,4 +70,4 @@
 ;; Build!
 (org-publish-all t)
 
-(message "Build complete! Output in ./public/")
+(message "Build complete! Output in ./docs/")
